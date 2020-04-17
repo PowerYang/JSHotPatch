@@ -10,7 +10,6 @@ _import('UIView,UILabel,UIColor,UIFont,UIScreen,UIImageView,UIImage,UITapGesture
  *  声明Class,如无需在Oc中动态创建,可不设置父类,直接在js中创建类
  *  声明Class,如Native不存在,则动态创建Class
  */
-defineClass('TTPlaygroundController:UIViewController', {
     /**
 	 * 添加属性,自动生成`setter`/`getter`方法,取值和赋值必须使用`setter`/`getter`方法.
 	 */ 
